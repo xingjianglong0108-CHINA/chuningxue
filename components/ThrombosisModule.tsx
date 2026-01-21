@@ -264,8 +264,8 @@ const ThrombosisModule: React.FC = () => {
                   2025 治疗安全红线 (Red Lines)
                 </h5>
                 <ul className="text-[9px] font-black text-yellow-700 space-y-2 leading-snug uppercase tracking-tight">
-                  <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>溶栓前提：Plt 必须 > 100 × 10⁹/L</li>
-                  <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>溶栓前提：Fib 必须 > 1.0 g/L</li>
+                  <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>溶栓前提：Plt 必须 &gt; 100 × 10⁹/L</li>
+                  <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>溶栓前提：Fib 必须 &gt; 1.0 g/L</li>
                   <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>PTE 高危泵入方案：rt-PA 0.5mg/kg/h</li>
                   <li className="flex items-start"><span className="mr-1 mt-0.5">•</span>抗凝逆转：UFH 过量首选鱼精蛋白</li>
                 </ul>

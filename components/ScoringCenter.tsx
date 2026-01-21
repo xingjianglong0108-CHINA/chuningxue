@@ -239,7 +239,7 @@ const ScoringCenter: React.FC = () => {
                   </label>
                   <label className="flex items-center space-x-2 p-2 bg-white/40 rounded-lg cursor-pointer hover:bg-white/60 transition-all">
                     <input type="checkbox" checked={vteImmobile} onChange={e => setVteImmobile(e.target.checked)} className="w-4 h-4 rounded text-blue-600" />
-                    <span className="text-sm font-medium text-gray-700">卧床 / 制动 > 3天 (+2)</span>
+                    <span className="text-sm font-medium text-gray-700">卧床 / 制动 &gt; 3天 (+2)</span>
                   </label>
                   <label className="flex items-center space-x-2 p-2 bg-white/40 rounded-lg cursor-pointer hover:bg-white/60 transition-all">
                     <input type="checkbox" checked={vteMalignancy} onChange={e => setVteMalignancy(e.target.checked)} className="w-4 h-4 rounded text-blue-600" />
@@ -257,7 +257,7 @@ const ScoringCenter: React.FC = () => {
                   </label>
                   <label className="flex items-center space-x-2 p-2 bg-white/40 rounded-lg cursor-pointer hover:bg-white/60 transition-all">
                     <input type="checkbox" checked={vteObesity} onChange={e => setVteObesity(e.target.checked)} className="w-4 h-4 rounded text-blue-600" />
-                    <span className="text-sm font-medium text-gray-700">肥胖 (BMI > 同龄第 95 百分位) (+1)</span>
+                    <span className="text-sm font-medium text-gray-700">肥胖 (BMI &gt; 同龄第 95 百分位) (+1)</span>
                   </label>
                   <label className="flex items-center space-x-2 p-2 bg-white/40 rounded-lg cursor-pointer hover:bg-white/60 transition-all">
                     <input type="checkbox" checked={vteFamily} onChange={e => setVteFamily(e.target.checked)} className="w-4 h-4 rounded text-blue-600" />
@@ -269,7 +269,7 @@ const ScoringCenter: React.FC = () => {
                   </label>
                   <label className="flex items-center space-x-2 p-2 bg-white/40 rounded-lg cursor-pointer hover:bg-white/60 transition-all">
                     <input type="checkbox" checked={vteHighDd} onChange={e => setVteHighDd(e.target.checked)} className="w-4 h-4 rounded text-blue-600" />
-                    <span className="text-sm font-medium text-gray-700">实验室：D-Dimer 显著升高 (>2x ULN) (+1)</span>
+                    <span className="text-sm font-medium text-gray-700">实验室：D-Dimer 显著升高 (&gt;2x ULN) (+1)</span>
                   </label>
                 </div>
               </div>
